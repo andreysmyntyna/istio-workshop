@@ -12,8 +12,8 @@ spec:
       - uri:
           prefix: /
         headers:
-          x-test-user:
-            exact: "true"
+          x-route-to:
+            exact: "service2"
       route:
         - destination:
             host: chuck-ui
